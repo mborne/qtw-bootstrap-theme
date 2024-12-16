@@ -1,0 +1,10 @@
+nav.navbar-dark .nav-link {
+    color:$light !important;
+}
+nav.navbar-dark .nav-link.active {
+    color: $light !important;
+    font-weight: bold !important;
+}
+nav.navbar-dark .nav-link.disabled {
+    color: $gray-500 !important;
+}

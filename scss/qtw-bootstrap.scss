@@ -1,0 +1,17 @@
+/* https://www.canva.com/colors/color-wheel/ */
+$primary:#007BFF;
+$secondary:#3395FF;
+$success:#06ea47;
+$danger:#e41227;
+$info:#a5d1ff;
+$warning:#FF8400;
+$light:#e2eefa;
+// /* https://pinetools.com/darken-color */
+$dark:#004999;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "footer";
+@import "nav";
+@import "_external-link.scss";
+

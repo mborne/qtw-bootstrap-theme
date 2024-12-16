@@ -1,0 +1,18 @@
+{
+  "name": "@mborne/qtw-bootstrap-theme",
+  "version": "5.3.0",
+  "description": "[DEV] Bootstrap theme for www.quadtreeworld.net",
+  "scripts": {
+    "build": "npm run css-build && npm run css-minify",
+    "css-build": "sass --quiet scss/qtw-bootstrap.scss dist/qtw-bootstrap.css",
+    "css-minify": "cleancss --source-map --source-map-inline-sources --output dist/qtw-bootstrap.min.css dist/qtw-bootstrap.css"
+  },
+  "author": "Mickaël Borne <mborne@users.noreply.github.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "bootstrap": "^5.3.3",
+    "clean-css-cli": "^5.6.3",
+    "sass": "^1.83.0"
+  }
+}

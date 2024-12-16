@@ -1,0 +1,5 @@
+a[href^="https:"]::after,
+a[href^="http:"]::after {
+    font-family: Material Icons;
+    content: " \e895";
+}
